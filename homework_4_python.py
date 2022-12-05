@@ -3,18 +3,18 @@ def correct_print_function(major_name, *args):
     print(major_name, *args)
 
 
-def OPEN_WEB_BROWSER(site_name):
-    correct_print_function(OPEN_WEB_BROWSER, site_name)
+def open_web_browser(site_name):
+    correct_print_function(open_web_browser, site_name)
 
 
-def GO_TO_COMPANYNAME_HOMEPAGE(page_link):
-    correct_print_function(GO_TO_COMPANYNAME_HOMEPAGE, page_link)
+def go_to_companyname_homepage(page_link):
+    correct_print_function(go_to_companyname_homepage, page_link)
 
 
-def FIND_REGISTRATION_BUTTON_ON_LOGIN_PAGE(page_link, button_text):
-    correct_print_function(FIND_REGISTRATION_BUTTON_ON_LOGIN_PAGE, page_link, button_text)
+def find_registration_button_on_login_page(page_link, button_text):
+    correct_print_function(find_registration_button_on_login_page, page_link, button_text)
 
 
-OPEN_WEB_BROWSER('Mozilla')
-GO_TO_COMPANYNAME_HOMEPAGE('https://www.notion.so/')
-FIND_REGISTRATION_BUTTON_ON_LOGIN_PAGE('https://www.notion.so/', 'Log in')
+open_web_browser('Mozilla')
+go_to_companyname_homepage('https://www.notion.so/')
+find_registration_button_on_login_page('https://www.notion.so/', 'Log in')
